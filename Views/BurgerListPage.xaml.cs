@@ -1,6 +1,7 @@
 using AlbertoValverdeHamburguesa.Models;
 namespace AlbertoValverdeHamburguesa.Views;
 
+[QueryProperty("Item", "Item")]
 public partial class BurgerListPage : ContentPage
 {    
     public BurgerListPage()
